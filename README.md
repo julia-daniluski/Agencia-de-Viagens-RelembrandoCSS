@@ -3,7 +3,7 @@
 Neste repositório faremos uma retomada básica sobre html e css. O objetivo é fazer uma página de uma agência de viagens. Esse exercício serve como um treinamento para nos acostumarmos com:
 * Linguagens de marcação: html e md;
 * Folha de estilo: css (responsividade);
-* Identidade visual: protoripos.
+* Identidade visual: prototipos.
 
   <hr>
   O projeto tem como objetivo ficar parecido com o exemplo a seguir:
