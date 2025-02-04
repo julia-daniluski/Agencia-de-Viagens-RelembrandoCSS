@@ -23,6 +23,11 @@ Neste repositório faremos uma retomada básica sobre html e css. O objetivo é 
 Deixarei os links dos protótipos em Desktop e Mobile a seguir:
 <br>
 <br>
+
+Figma: 
+
+https://www.figma.com/design/47VNPIO5ouDCZVKpBoPDyq/Guia-de-estilos-%2F-Ag%C3%AAncia-de-viagens?t=8vIRpXSj4Ab2Cdee-0
+
 Desktop:
 
 https://www.figma.com/proto/47VNPIO5ouDCZVKpBoPDyq/Guia-de-estilos-%2F-Ag%C3%AAncia-de-viagens?node-id=2002-102&p=f&t=4ODLmhPbYNm3RVYB-0&scaling=scale-down&content-scaling=fixed&page-id=1%3A3
@@ -31,3 +36,18 @@ Mobile: https://www.figma.com/proto/47VNPIO5ouDCZVKpBoPDyq/Guia-de-estilos-%2F-A
 
 <br>
 <br>
+
+O site ficou assim:
+
+
+![Captura de tela 2025-02-04 162042](https://github.com/user-attachments/assets/4bc804ac-77e4-4e7a-af52-207941eb99af)
+
+
+![Captura de tela 2025-02-04 162058](https://github.com/user-attachments/assets/5528c717-f8b4-4d58-9cfa-3389a57568ce)
+
+
+
+![Captura de tela 2025-02-04 162126](https://github.com/user-attachments/assets/1365765f-dc7c-498b-861d-5ff83230ce1c)
+
+![Captura de tela 2025-02-04 162131](https://github.com/user-attachments/assets/f804994b-e79b-49b6-bbb1-b4fb13438a1f)
+
