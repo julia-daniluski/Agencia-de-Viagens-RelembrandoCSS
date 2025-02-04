@@ -12,18 +12,19 @@
     <header>
         <img id="logo" src="img/icons.png" alt="Logo"> 
         <div class="container">
-            <h1>Meu Site</h1>
+            <h1>Agência de Viagens</h1>
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Destinos</a></li>
-                <li><a href="#">Contatos</a></li>
-                <li><a href="#">Pacotes</a></li>
+                <li class="inf-header"><a href="#">Inicio</a></li>
+                <li class="inf-header"><a href="#">Destinos</a></li>
+                <li class="inf-header"><a href="#">Contatos</a></li>
+                <li class="inf-header"><a href="#">Pacotes</a></li>
             </ul>
         </div>
     </header>
     
-    <main>
-        <section class="popular">
+    <main id="album">
+        
+        <aside class="popular">
             <h3>Destinos populares</h3>
             <img src="img/paris.jpg" alt="paris">
             <p class="lugares">Paris, FR</p>
@@ -34,21 +35,18 @@
             <img src="img/roma.jpg" alt="Roma">
             <p class="lugares">Roma, IT</p>
             <img src="img/tokio.jpg" alt="Tokio">
-            <p class="lugares">Tokya, JP</p>
-        </section>
+            <p class="lugares">Tokya, JP</p></aside>
 
         <section class="encontre">
             <h3>Encontre seu destino</h3>
             <form action="#">
                 <input type="text" name="name" id="name" placeholder="Encontre seu destino...">
-            </form>
-            <form action="#">
                 <input type="date" name="data" id="data">
-            </form>
-            <input type="submit" value="Buscar">
-        </section>
+                <button>Buscar</button>
+        </form>
 
-        <section class="promocao">
+
+        <aside class="promocao">
             <h3>Destinos populares:</h3>
             <img src="img/cancun.jpg" alt="noronha">
             <p class="promocoes">Praias paradisiacas</p>
@@ -59,8 +57,8 @@
             <img src="img/noronha.jpg" alt="noronha">
             <p class="promocoes">Super oportunidade!</p>
             <p>Pacote para Fernando de Noronha 4 días por R$ 3.200</p>
-        </section>
-    </main>
+        </aside>
+        </main>
  
     <footer> <p>©2025 Agência de Viagens - Contato: contato@lagenciaviagens.com </p></footer>
 

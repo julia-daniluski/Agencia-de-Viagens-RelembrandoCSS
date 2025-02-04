@@ -2,41 +2,33 @@
 
 body{
 	font-family: font-family: "Poppins", sans-serif;
-    background-image: url("img/fundo.jpg");
-    background-size: cover; /* Faz a imagem cobrir toda a tela */
-    background-position: center; /* Centraliza a imagem */
-    background-repeat: no-repeat; /* Evita repetição da imagem */
+    background-color:#FFBCE2;
     height: 100%;
     margin: 0;
     padding: 0;
     width: 100%;
 }
 
-img{
-    height: 240px;
-    width: 314px;
 
-}
-
-header {
+header{
+    align-items: center; /* Centraliza na vertical */
     background-color: #F277BB;
-    font-size: 40px;
-    position: absolute;
-    top:0;
+    box-sizing: border-box;
+    color: #000;
+    display: flex;
+    flex-direction: row;
+	font-family: font-family: "Poppins", sans-serif;
     left:0;
-    width: 100vw;
-    padding: 20px 100px;
-    display: flex; /* Exibe elementos em linha */
-    align-items: center; /* Alinha verticalmente */
-    justify-content: space-between;
-    box-sizing: border-box; /* Evita que padding aumente o tamanho total */
+    padding: 20px 100px;  
     text-align: center;
+    top:0; 
 }
 
 
-#logo {
-    width: 130px;
-    height: auto; /* Mantém a proporção da imagem */
+img {
+    width: 10%;
+    display: block;
+
 }
 
 
@@ -45,13 +37,26 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    padding: 20px 100px;  
+    text-align: center;
+    box-sizing: border-box;
 }
 
 
 h1 {
-    margin: 0; /* Remove margens extras */
-    padding: 10px 0; /* Espaçamento interno */
-    font-size: 2em;
+    margin: 0;
+    padding: 10px 0;
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.inf-header{
+    font-size: 10px;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
 }
 
 ul {
@@ -64,7 +69,8 @@ ul {
 }
 
 li {
-    padding: 10px;
+    padding: 20px;
+    font-size: 30px;
 }
 
 a {
@@ -72,18 +78,116 @@ a {
     color: black;
 }
 
+.encontre{
+    align-items: center;
+    justify-content: center;
 
-#popular{
-    display: flex;
-    background-color: #C4CBF2;
-    left: 10%;
 }
 
-#promocao{
+
+.popular{
+    background: #C4CBF2;
+    padding: 30px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%; /* Melhor ajuste para telas menores */
+    max-width: 440px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 40px;
+    /*Transformando em conteiner*/
     display: flex;
-    background-color: #C4CBF2;
-    right: 10%;
+    /*deixa o texto embaixo da imagem*/
+    flex-direction: column;
 }
+
+.popular img {
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+.promocao{
+    background: #C4CBF2;
+    padding: 30px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%; /* Melhor ajuste para telas menores */
+    max-width: 440px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    /*Transformando em conteiner*/
+    display: flex;
+    /*deixa o texto embaixo da imagem*/
+    flex-direction: column;
+}
+
+.promocao img {
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+section.coluna{
+    flex: 1 1 100%;
+    padding: 0px 5px;
+}
+
+main#album{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+
+
+input[type="text"], input[type="date"]{
+    background-color: #ffff;
+    width: 130%;
+    height: 40px;
+    max-width: 200px; /* Define um limite para o tamanho */
+    padding: 0 0.5rem;
+    margin-top: 1rem;
+    outline: none;
+    color: #F277BB;
+    font-size: 1rem;
+    border: 1px solid #161923;
+    display: flex;
+    /*deixa o texto embaixo da imagem*/
+    flex-direction: column;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    background-color: #F277BB;
+    width: 130%;
+    height: 40px;
+    max-width: 200px; /* Define um limite para o tamanho */
+    margin-top: 1rem;
+    outline: none;
+    color: white;
+    border: 1px solid #161923;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+:placeholder-shown{
+    color: #F277BB;
+}
+
 
 footer{
     background-color: #F277BB;
