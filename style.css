@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  "Poppins", sans-serif;
+    list-style: none;
+}
 body{
-	font-family: font-family: "Poppins", sans-serif;
+
     background-color:#FFBCE2;
     height: 100%;
     margin: 0;
@@ -97,10 +105,9 @@ a {
     border: 1px solid #ddd;
     padding: 20px;
     margin-bottom: 40px;
-    /*Transformando em conteiner*/
     display: flex;
-    /*deixa o texto embaixo da imagem*/
     flex-direction: column;
+    flex: ;
 }
 
 .popular img {
@@ -148,9 +155,9 @@ main#album{
 
 input[type="text"], input[type="date"]{
     background-color: #ffff;
-    width: 130%;
-    height: 40px;
-    max-width: 200px; /* Define um limite para o tamanho */
+    width: 90%; /* Melhor ajuste para telas menores */
+    max-width: 440px;
+    height: 50%;
     padding: 0 0.5rem;
     margin-top: 1rem;
     outline: none;
@@ -162,6 +169,11 @@ input[type="text"], input[type="date"]{
     flex-direction: column;
 }
 
+input::placeholder {
+    color: #F277BB;
+}
+
+
 button {
     padding: 0.5rem 1rem;
     border-radius: 20px;
@@ -171,9 +183,9 @@ button {
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
     background-color: #F277BB;
-    width: 130%;
-    height: 40px;
-    max-width: 200px; /* Define um limite para o tamanho */
+    width: 90%; /* Melhor ajuste para telas menores */
+    max-width: 440px;
+    height: 50%;
     margin-top: 1rem;
     outline: none;
     color: white;
@@ -205,4 +217,20 @@ footer{
 p footer{
     font-size: 20px;
     text-align: center;
+}
+
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+    ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    li {
+        font-size: 18px;
+    }
 }
