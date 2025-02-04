@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body{
-	font-family: "Poppins"; /* Aplica a fonte importada */
+	font-family: font-family: "Poppins", sans-serif;
     background-image: url("img/fundo.jpg");
     background-size: cover; /* Faz a imagem cobrir toda a tela */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Evita repetição da imagem */
-    width: 100vw;
-    height: 100vh;
+    height: 100%;
     margin: 0;
     padding: 0;
+    width: 100%;
 }
+
 img{
     height: 240px;
     width: 314px;
@@ -23,19 +24,21 @@ header {
     position: absolute;
     top:0;
     left:0;
-    width: 100%;
+    width: 100vw;
     padding: 20px 100px;
     display: flex; /* Exibe elementos em linha */
     align-items: center; /* Alinha verticalmente */
     justify-content: space-between;
-    padding: 10px;
+    box-sizing: border-box; /* Evita que padding aumente o tamanho total */
+    text-align: center;
 }
+
 
 #logo {
     width: 130px;
-    height: 204px;
-    margin-right: 20px; /* Espaço entre a logo e os textos */
+    height: auto; /* Mantém a proporção da imagem */
 }
+
 
 .container {
     display: flex;
@@ -44,20 +47,20 @@ header {
     justify-content: space-between;
 }
 
+
 h1 {
-    text-align: center;
-    padding: 20px;
+    margin: 0; /* Remove margens extras */
+    padding: 10px 0; /* Espaçamento interno */
     font-size: 2em;
-    margin-bottom: 20px;
 }
 
 ul {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 10px 0 0 0; /* Espaço entre o título e a lista */
     display: flex; 
     justify-content: center; /* Centraliza os itens na horizontal */
-    gap: 10px; 
+    gap: 10px;
 }
 
 li {
@@ -69,8 +72,33 @@ a {
     color: black;
 }
 
+
 #popular{
     display: flex;
     background-color: #C4CBF2;
     left: 10%;
+}
+
+#promocao{
+    display: flex;
+    background-color: #C4CBF2;
+    right: 10%;
+}
+
+footer{
+    background-color: #F277BB;
+    position: absolute;
+    left:0;
+    width: 100vw;
+    padding: 20px 100px;
+    display: flex; /* Exibe elementos em linha */
+    align-items: center;
+    justify-content: center; 
+    box-sizing: border-box;
+    text-align: center;
+}
+
+p footer{
+    font-size: 20px;
+    text-align: center;
 }
