@@ -13,12 +13,10 @@ Neste repositório faremos uma retomada básica sobre html e css. O objetivo é 
 <hr>
 
   Iniciei o protótipo no Figma preparando a identidade visual e o estilo dos input, como pode ser visto nas imagens a seguir:
+![Captura de tela 2025-02-10 090243](https://github.com/user-attachments/assets/b583e70e-7408-4973-96e8-76dfe4c26c93)
 
- ![Captura de tela 2025-02-03 162040](https://github.com/user-attachments/assets/4f971feb-7456-4621-9576-99818df720ef)
 
-![Captura de tela 2025-02-03 162049](https://github.com/user-attachments/assets/b2c8b5a8-1777-4311-be44-6cceb614f229)
-
-![Captura de tela 2025-02-03 162058](https://github.com/user-attachments/assets/492d7265-e35b-49ce-8ca4-3ef36a974131)
+![Captura de tela 2025-02-10 090252](https://github.com/user-attachments/assets/46ed287c-29d0-41dc-8843-f45b2d21db7d)
 
 Deixarei os links dos protótipos em Desktop e Mobile a seguir:
 <br>
@@ -40,14 +38,15 @@ Mobile: https://www.figma.com/proto/47VNPIO5ouDCZVKpBoPDyq/Guia-de-estilos-%2F-A
 O site ficou assim:
 
 
-![Captura de tela 2025-02-04 162042](https://github.com/user-attachments/assets/4bc804ac-77e4-4e7a-af52-207941eb99af)
-
-
-![Captura de tela 2025-02-04 162058](https://github.com/user-attachments/assets/5528c717-f8b4-4d58-9cfa-3389a57568ce)
+https://github.com/user-attachments/assets/dc247b81-bea8-4f48-bab2-859fe934499c
 
 
 
-![Captura de tela 2025-02-04 162126](https://github.com/user-attachments/assets/1365765f-dc7c-498b-861d-5ff83230ce1c)
 
-![Captura de tela 2025-02-04 162131](https://github.com/user-attachments/assets/f804994b-e79b-49b6-bbb1-b4fb13438a1f)
+
+
+https://github.com/user-attachments/assets/db01199a-761f-4051-9039-b52a213530c2
+
+
+
 
